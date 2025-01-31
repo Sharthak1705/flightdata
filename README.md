@@ -26,22 +26,17 @@ npm or yarn (package managers)
 Installation
 Follow these steps to set up the application on your local machine:
 
+`Clone the repository:` 
 ```js
-
-Clone the repository:
 git clone https://github.com/Sharthak1705/flightdata
 cd flightdata
 ```
-
+`Install the dependencies:` 
 ```js
-
-Install the dependencies:
 npm install
 ```
-
+`Run the application:`
 ```js
-
-Run the application:
 npm start
 ```
 
