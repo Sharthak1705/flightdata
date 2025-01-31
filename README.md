@@ -5,7 +5,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 This is a Flight Status Application built with React, TypeScript, and React Router that fetches live flight data and displays the flight status. Users can view flight information, including departure time, status, and airline details. The application supports a real-time data fetch every 5 seconds to keep the flight information up-to-date.
 
-Features
+`  Features `
 
 Displays a list of flights with their status (On Time, Delayed, Boarding, Departed).
 Flight details page with more in-depth information about a specific flight.
@@ -13,7 +13,7 @@ Real-time updates with a 5-second refresh interval.
 Navigation between different pages (Flight List, Flight Detail, and Sign-Up).
 
 
-Technologies Used :
+` Technologies Used : `
 React - JavaScript library for building user interfaces.
 TypeScript - Typed superset of JavaScript for better tooling and static analysis.
 React Router - For navigation and routing between pages.
@@ -28,26 +28,35 @@ npm or yarn (package managers)
 Installation
 Follow these steps to set up the application on your local machine:
 
+```js
+
 Clone the repository:
 git clone https://github.com/yourusername/flight-status-app.git
 cd flight-status-app
+```
+
+```js
 
 Install the dependencies:
 npm install
+```
+
+```js
 
 Run the application:
 npm start
+```
 
 The app should now be running on http://localhost:5173.
 
 Running Tests
 If you have written tests (or plan to), you can run them using:
 
-npm test
+` npm test `
 
 This will start Jest in watch mode. If you haven’t set up tests yet, you can integrate Jest or another testing framework of your choice.
 
-Usage
+Usage :
 
 Flight List Page: Displays all flights along with their flight number, origin, destination, departure time, and status.
 
@@ -63,6 +72,7 @@ Departed: The flight has already departed.
 
 File Structure
 Here’s an overview of the project’s structure:
+```js
 
 /src
   /assets
@@ -78,8 +88,9 @@ Here’s an overview of the project’s structure:
   App.tsx                # Main entry point for React App
   index.tsx              # Application entry point
 
+```
 
-Component Breakdown
+` Component Breakdown `
 
 Navbar: Displays the logo, a heading ("Flight Status"), and a Sign-In button.
 
@@ -89,19 +100,19 @@ FlightDetail: Displays detailed information for a specific flight, including gat
 
 Form: A basic form for user sign-up.
 
-Error Handling
-The application uses basic error handling to display error messages if there are issues fetching flight data or if a flight is not found.
+` Error Handling `
 
+The application uses basic error handling to display error messages if there are issues fetching flight data or if a flight is not found.
 Notes
 This app fetches data from a mock API. In a real-world application, replace the fetch URLs with actual endpoints.
 
 The app uses setInterval to fetch updated data every 5 seconds.
 
-Contributing
-
+` Contributing `
 If you would like to contribute to this project, feel free to fork it, create a new branch, and submit a pull request. Please make sure to follow the existing code style and add necessary comments for better understanding.
 
 Steps for contributing:
+```js
 
 Fork the repository.
 
@@ -112,8 +123,7 @@ Commit your changes (git commit -m "Add feature").
 Push to the branch (git push origin feature-branch).
 
 Create a pull request.
-
-=
+```
 
 Currently, two official plugins are available:
 
