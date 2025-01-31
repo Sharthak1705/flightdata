@@ -6,7 +6,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
 This is a Flight Status Application built with React, TypeScript, and React Router that fetches live flight data and displays the flight status. Users can view flight information, including departure time, status, and airline details. The application supports a real-time data fetch every 5 seconds to keep the flight information up-to-date.
 
 `  Features : `
-
 Displays a list of flights with their status (On Time, Delayed, Boarding, Departed).
 Flight details page with more in-depth information about a specific flight.
 Real-time updates with a 5-second refresh interval.
@@ -21,7 +20,6 @@ Tailwind CSS - Utility-first CSS framework for styling.
 Fetch API - For making HTTP requests to fetch flight data.
 
 ` Prerequisites  : `
-
 Before running the application, ensure you have the following installed:
 Node.js (version 14 or higher)
 npm or yarn (package managers)
@@ -56,23 +54,23 @@ If you have written tests (or plan to), you can run them using:
 
 This will start Jest in watch mode. If you haven’t set up tests yet, you can integrate Jest or another testing framework of your choice.
 
-Usage :
+` Usage : `
 
 Flight List Page: Displays all flights along with their flight number, origin, destination, departure time, and status.
-
 Flight Detail Page: By clicking on the "View Details" link, users can view additional details such as gate, terminal, and estimated arrival for a specific flight.
-
 Sign-Up Page: A simple registration form to sign up for an account.
 
+``
 Flight Status Key:
 On Time: The flight is scheduled to depart on time.
 Delayed: The flight's departure is delayed.
 Boarding: Passengers can board the flight.
 Departed: The flight has already departed.
+``
 
+```js
 File Structure
 Here’s an overview of the project’s structure:
-```js
 
 /src
   /assets
