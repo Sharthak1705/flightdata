@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import FlightTable from "../flight/flight";
+import Image from "../../assets/flight.png";
 
 const Navbar = () => {
   return (
     <>
       <header className="p-4 flex justify-between items-center bg-gray-300 shadow-md">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
+          <img src={Image} alt="Flight Logo" className="h-10 w-10" />
           <span className="text-xl font-bold">Flights</span>
         </div>     
         <h2 className="text-2xl font-bold"> Flight Status</h2>
