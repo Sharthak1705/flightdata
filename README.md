@@ -29,8 +29,8 @@ Follow these steps to set up the application on your local machine:
 ```js
 
 Clone the repository:
-git clone https://github.com/yourusername/flight-status-app.git
-cd flight-status-app
+git clone https://github.com/Sharthak1705/flightdata
+cd flightdata
 ```
 
 ```js
